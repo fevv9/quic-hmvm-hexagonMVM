@@ -4,8 +4,8 @@
  https://wiki.codeaurora.org/xwiki/bin/HexagonMiniVM/
  
 
-
 Hexagon MiniVM
+Last modified by Rob Garth on 2016/05/20 20:41
 Hexagon MiniVM
 
 MiniVM is a basic reference implementation of the Hexagon Virtual Machine.  It is intended to provide the bare minimum functionality needed to allow a single paravirtualized guest (like the Linux kernel) to run.
@@ -26,7 +26,7 @@ https://sourcery.mentor.com/GNUToolchain/release2331
 
 You may need to edit the compiler prefix in the Makefile depending on which toolchain you choose.
 
-$ git clone git@git.codeaurora.org:quic/hmvm/hexagonMVM.git
+$ git clone git@codeaurora.org/quic/hmvm/hexagonMVM.git
 
 $ make -C hexagonMVM GUEST_ENTRY=[guest entry point]
 
@@ -37,6 +37,5 @@ The source code available for download from Code Aurora may be covered by one or
 
     Clear BSD: http://directory.fsf.org/wiki/License:ClearBSD
 
-Tags:
-Created by Greg Stinocher on 2013/04/19 07:50
+
 
